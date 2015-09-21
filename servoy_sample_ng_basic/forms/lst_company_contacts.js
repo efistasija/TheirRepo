@@ -24,11 +24,8 @@ function btnSendContactEmail(event) {
  * @properties={typeid:24,uuid:"61A52A8E-E50E-4867-AD42-24CB1C3509D1"}
  */
 function btnOpenContact(event) {
-		//load the record based on the current id
-		forms.frm_contacts.selectRecord(contact_id);
+		//load the record based on the current id in the contacts details form
+		forms.frm_contacts.selectContactsRecord(contact_id);
 		//change the selected solution type in the main navigation to 'Contacts'
 		forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_CONTACTS_NAME);
-
-		//change tabs in main navigation form
-		forms.lst_solution_navigation.onRecordSelection();
 }

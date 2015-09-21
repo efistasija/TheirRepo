@@ -85,10 +85,9 @@ function btnSendEmail(event) {
  *
  * @properties={typeid:24,uuid:"377A6D56-5E68-4EFB-91BD-841EDE15E123"}
  */
-function selectRecord(curCompanyID){
+function selectCompanyRecord(curCompanyID){
 	if(curCompanyID){
 		foundset.selectRecord(curCompanyID);
-		onRecordSelection();
 	}
 }
 

@@ -72,10 +72,9 @@ function loadRecords(curFoundset) {
  *
  * @properties={typeid:24,uuid:"AC524B8F-6C55-44AD-9BD3-A31DDE7A1B84"}
  */
-function selectRecord(curOrderID) {
+function selectOrdersRecord(curOrderID) {
 	if(curOrderID) {
 		foundset.selectRecord(curOrderID);
-		onRecordSelection();
 	}
 }
 
@@ -90,12 +89,9 @@ function selectRecord(curOrderID) {
  */
 function btnOpenCompany(event) {
 	//load the record based on the current id
-	forms.frm_contacts.selectRecord(contact_id);
+	forms.frm_contacts.selectContactsRecord(contact_id);
 	//change the selected solution type in the main navigation to 'Contacts'
 	forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_CONTACTS_NAME);
-
-	//change tabs in main navigation form
-	forms.lst_solution_navigation.onRecordSelection();
 }
 
 /**
@@ -109,12 +105,9 @@ function btnOpenCompany(event) {
  */
 function btnOpenContact(event) {
 	//load the record based on the current id
-	forms.frm_contacts.selectRecord(contact_id);
+	forms.frm_contacts.selectContactsRecord(contact_id);
 	//change the selected solution type in the main navigation to 'Contacts'
 	forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_CONTACTS_NAME);
-
-	//change tabs in main navigation form
-	forms.lst_solution_navigation.onRecordSelection();
 }
 
 /**

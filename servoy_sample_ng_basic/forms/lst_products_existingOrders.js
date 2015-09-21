@@ -10,7 +10,7 @@
  */
 function btnOpenOrders(event) {
 	//load the record based on the current id
-	forms.frm_orders.selectRecord(order_id);
+	forms.frm_orders.selectOrdersRecord(order_id);
 	//change the selected solution type in the main navigation to 'Contacts'
 	forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_ORDERS_NAME);
 

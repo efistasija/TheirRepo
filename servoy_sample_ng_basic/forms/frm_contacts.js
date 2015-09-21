@@ -43,10 +43,9 @@ function onRecordSelection() {
  * @properties={typeid:24,uuid:"AD235DDC-15CE-4C37-A5CC-DED0AB5A4B16"}
  * @AllowToRunInFind
  */
-function selectRecord(curContactID) {
+function selectContactsRecord(curContactID) {
 	if(curContactID){
 		foundset.selectRecord(curContactID);
-		onRecordSelection();
 	}
 }
 
@@ -86,12 +85,9 @@ function btnSendEmail(event) {
  */
 function btnOpenCompany(event) {
 	//load the record based on the current id
-	forms.frm_companies.selectRecord(company_id);
+	forms.frm_companies.selectCompanyRecord(company_id);
 	//change the selected solution type in the main navigation to 'Contacts'
 	forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_COMPANIES_NAME);
-
-	//change tabs in main navigation form
-	forms.lst_solution_navigation.onRecordSelection();
 }
 
 /**
@@ -209,8 +205,7 @@ function sub_showContactOrders()
 	forms.lst_solution_navigation.setSelectedIndex(scopes.constants.CONST_ORDERS_NAME);
 
 	//change tabs in main navigation form
-	forms.lst_solution_navigation.onRecordSelection();
-	forms.frm_nav_CRUD.sub_showShowAll();
+	forms.frm_nav_top.sub_showShowAll();
 }
 
 /**
@@ -233,25 +228,4 @@ function validate_beforeDelete()
 	{
 		return 0;
 	}
-}
-
-/**
- * @properties={typeid:24,uuid:"6642D78E-8726-4476-866F-55C839FB51AB"}
- */
-function print_default()
-{
-	rpt_contacts_list();
-}
-
-/**
- * @properties={typeid:24,uuid:"b2f85ad0-9e20-4157-abf0-c663b97914f6"}
- * @AllowToRunInFind
- */
-function rpt_contacts_list()
-{
-	forms.rpt_contacts_list.controller.loadAllRecords();
-
-	forms.rpt_contacts_list.controller.sort('contacts_to_companies.company_name asc, name_last asc, name_first asc');
-
-	globals.printRoutine('rpt_contacts_list', null);
 }

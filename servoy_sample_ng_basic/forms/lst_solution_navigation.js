@@ -33,18 +33,12 @@ function onRecordSelection() {
  * @AllowToRunInFind
  */
 function setSelectedIndex(resourceName){
-	//duplicate the foundset to find the record with item_name = resourceName
-	var duplicateFoundset = foundset.duplicateFoundSet();
-	
-	var searchSuccess = false;
-	if(duplicateFoundset.find()) {
-		duplicateFoundset.item_name = resourceName;
-		searchSuccess = duplicateFoundset.search();
-	}
-	
-	//if you found the resource, select it in the original foundset by using the record primary key nav_id
-	if(searchSuccess){
-		foundset.selectRecord(duplicateFoundset.nav_id);
+	//find the record with item_name = resourceName
+	for(var i = 1; i<=foundset.getSize(); i++){
+		if(foundset.getRecord(i).item_name.equalsIgnoreCase(resourceName)){
+			foundset.setSelectedIndex(i);
+			break;
+		}
 	}
 }
 

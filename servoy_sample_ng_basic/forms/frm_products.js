@@ -290,7 +290,7 @@ function sub_showProductOrders()
 	var maxReturnedRows = 500;//useful to limit number of rows
 	var ds = controller.getDataSource().split('/');
 	var dataset = databaseManager.getDataSetByQuery(ds[1], query, null, maxReturnedRows);
-
+	
 	if(dataset.getMaxRowIndex() > 0)
 	{
 		forms.lst_orders.loadRecords(dataset);
@@ -324,19 +324,4 @@ function validate_beforeDelete()
 	{
 		return false;
 	}
-}
-
-/**
- * @AllowToRunInFind
- *
- * @properties={typeid:24,uuid:"B2C33E13-370D-4E6A-9997-642F4ACFA554"}
- */
-function print_default()
-{
-	//load all product records
-	forms.rpt_products_list.controller.loadAllRecords();
-
-	//sort for the subsummary report
-	forms.rpt_products_list.controller.sort('description asc');
-	globals.printRoutine('rpt_products_list', null);
 }
