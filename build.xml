@@ -13,7 +13,9 @@
   </target>
 
 	<target name="unzip" depends="export_war_solutions">
-		<unzip src="${servoy.test.target-exports.war}/${solutions_to_export_as_war_tests}.war" dest="${servoy.test.target-exports-unpacked.war}" />
+	    <echo level="info" message="Trying to unzip war: ${servoy.test.target-exports.war}/${solutions_to_export_as_war_tests}.war"/>
+		<unzip src="${servoy.test.target-exports.war}/${solutions_to_export_as_war_tests}.war" dest="${servoy.test.target-exports-unpacked.war}/${solutions_to_export_as_war_tests}.war" />
+		<echo level="info" message="Path to new unziped war: ${servoy.test.target-exports-unpacked.war}/${solutions_to_export_as_war_tests}.war"/>
 	</target>
 
 
