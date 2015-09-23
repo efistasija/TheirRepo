@@ -12,7 +12,9 @@
     <echo message="${eclipselog}" />
   </target>
 
-
+	<target name="unzip" depends="export_war_solutions">
+		<unzip src="${servoy.test.target-exports.war}/${solutions_to_export_as_war_tests}.war" dest="${servoy.test.target-exports-unpacked.war}" />
+	</target>
 
 
     <target name="prepare_export_log">
