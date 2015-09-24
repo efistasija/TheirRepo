@@ -1,4 +1,4 @@
-2510 warnings
+2505 warnings
 
 EmptyTag - T com.servoy.j2db.query.AbstractBaseQuery.relinkTable(BaseQueryTable orgTable, BaseQueryTable newTable, T o): @return is empty.
 EmptyTag - T com.servoy.j2db.scripting.solutionmodel.IJSParent.getSupportChild(): @return is empty.
@@ -1746,7 +1746,6 @@ ParamTagWithoutContent - void com.servoy.j2db.ClientState.setValueListItems(Stri
 ParamTagWithoutContent - void com.servoy.j2db.ClientState.setValueListItems(String name, Object[] displayValues, Object[] realValues, boolean autoconvert): @param tag without text: 'realValues'.
 ParamTagWithoutContent - void com.servoy.j2db.ClientStub.flushCachedDatabaseData(String dataSource): @param tag without text: 'server_name'.
 ParamTagWithoutContent - void com.servoy.j2db.ClientStub.flushCachedDatabaseData(String dataSource): @param tag without text: 'table_name'.
-ParamTagWithoutContent - void com.servoy.j2db.FlattenedSolution.deletePersistCopy(AbstractBase persist, boolean revertToOriginal): @param tag without text: 'form'.
 ParamTagWithoutContent - void com.servoy.j2db.FlattenedSolution.deregisterLiveForm(Form form, String namedInstance): @param tag without text: 'form'.
 ParamTagWithoutContent - void com.servoy.j2db.FlattenedSolution.deregisterLiveForm(Form form, String namedInstance): @param tag without text: 'namedInstance'.
 ParamTagWithoutContent - void com.servoy.j2db.FlattenedSolution.fillList(List copyInto, Solution s): @param tag without text: 'copyInto'.
@@ -2092,8 +2091,6 @@ ParamTagWithoutContent - void com.servoy.j2db.persistence.ColumnInfo.addCompatib
 ParamTagWithoutContent - void com.servoy.j2db.persistence.ColumnInfo.copyFrom(ColumnInfo sourceColumnInfo): @param tag without text: 'sourceColumnInfo'.
 ParamTagWithoutContent - void com.servoy.j2db.persistence.ColumnInfo.setFlag(int flag, boolean set): @param tag without text: 'flag'.
 ParamTagWithoutContent - void com.servoy.j2db.persistence.ColumnInfo.setFlag(int flag, boolean set): @param tag without text: 'set'.
-ParamTagWithoutContent - void com.servoy.j2db.persistence.FlattenedForm.fill(): @param tag without text: 'flattenedSolution'.
-ParamTagWithoutContent - void com.servoy.j2db.persistence.FlattenedForm.fill(): @param tag without text: 'form'.
 ParamTagWithoutContent - void com.servoy.j2db.persistence.Form.setBorderType(String b): @param tag without text: 'b'.
 ParamTagWithoutContent - void com.servoy.j2db.persistence.Form.setNavigatorID(int arg): @param tag without text: 'arg'.
 ParamTagWithoutContent - void com.servoy.j2db.persistence.Form.setOnDeleteAllRecordsCmdMethodID(int i): @param tag without text: 'i'.
@@ -2207,8 +2204,6 @@ ParamTagWithoutContent - void com.servoy.j2db.querybuilder.IQueryBuilderParamete
 ParamTagWithoutContent - void com.servoy.j2db.querybuilder.impl.QBParameter.setValue(Object value): @param tag without text: 'value'.
 ParamTagWithoutContent - void com.servoy.j2db.scripting.DefaultScope.remove(String name): @param tag without text: 'name'.
 ParamTagWithoutContent - void com.servoy.j2db.scripting.DefaultScope.setLocked(boolean b): @param tag without text: 'b'.
-ParamTagWithoutContent - void com.servoy.j2db.scripting.FormScope.updateProviderswithCopy(Form originalForm, Form copyForm): @param tag without text: 'form'.
-ParamTagWithoutContent - void com.servoy.j2db.scripting.FormScope.updateProviderswithCopy(Form originalForm, Form copyForm): @param tag without text: 'oldform'.
 ParamTagWithoutContent - void com.servoy.j2db.scripting.GlobalScope.put(ScriptVariable var, boolean overwriteInitialValue): @param tag without text: 'b'.
 ParamTagWithoutContent - void com.servoy.j2db.scripting.GlobalScope.put(ScriptVariable var, boolean overwriteInitialValue): @param tag without text: 'variable'.
 ParamTagWithoutContent - void com.servoy.j2db.scripting.InstanceJavaMembers.putNewValueMergeForDuplicates(Map copy, String name, String newName): @param tag without text: 'copy'.

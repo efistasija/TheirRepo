@@ -1,11 +1,11 @@
 Signature-Version: 1.0
-SHA1-Digest-Manifest-Main-Attributes: bWFWJbb63LMk+Ou7Jo++df302QI=
-Created-By: 1.7.0_60-ea (Oracle Corporation)
-SHA1-Digest-Manifest: eQOfd7+w9p8Lwwssw25gwYUZnVE=
+SHA1-Digest-Manifest-Main-Attributes: aJiV83CXdxRU+vV6tIwOUVjKgW4=
+Created-By: 1.7.0_51 (Oracle Corporation)
+SHA1-Digest-Manifest: piFJ8aEp9r4jnkZXFfu3oQYkjUE=
 
 Name: com/servoy/eclipse/core/Activator$SQLExplorerAliasCreatorJob$1$1
  .class
-SHA1-Digest: KJTCdu/VD/wMJxXrwp2Ad4RXp7U=
+SHA1-Digest: NViKIE3IpKT1yVHJt2lrT1L7NWw=
 
 Name: com/servoy/eclipse/core/util/UIUtils$ScrollableDialog$1.class
 SHA1-Digest: 2k3zSTb+zX8L0oaqA7/d7TxYyfI=
@@ -30,12 +30,8 @@ Name: com/servoy/eclipse/core/quickfix/DuplicateSiblingUuidQuickFix.cl
  ass
 SHA1-Digest: 1Yu62bx9OhtXzJ7YaQMb/0TLI7Y=
 
-Name: com/servoy/eclipse/core/resource/DesignerValueListPropertyType$1
- .class
-SHA1-Digest: j2zfJUiz+ef4bKSImbVlarQiWFY=
-
 Name: com/servoy/eclipse/core/Activator$1.class
-SHA1-Digest: KBp15wvw9XLFU4UHf1JM1pNOxHc=
+SHA1-Digest: 4e9V3PEHYrt9I4FZgOy3fjTeBa0=
 
 Name: com/servoy/eclipse/core/util/RunInWorkspaceJob.class
 SHA1-Digest: n8+yA1cQ0LEAwapVq6aMEpomUrk=
@@ -44,7 +40,7 @@ Name: com/servoy/eclipse/core/ServoyModel$1.class
 SHA1-Digest: V8MtL4Ujew5hGSwS3qGCV7zsI3Y=
 
 Name: com/servoy/eclipse/core/doc/servoydoc_jslib.warnings.txt
-SHA1-Digest: em3QOqV8D6ZDmKb6I8DN9rcLvWE=
+SHA1-Digest: 1eOFKP9+MbRTs9gpDPYJIjRiRCU=
 
 Name: com/servoy/eclipse/core/nature/ToggleServoyResourcesNatureAction
  .class
@@ -76,13 +72,13 @@ Name: com/servoy/eclipse/core/util/IntroEnableStartupPage$1.class
 SHA1-Digest: L/rjNH47WWncI4yqK4PP2y5cLGE=
 
 Name: com/servoy/eclipse/core/doc/servoydoc_jslib.xml
-SHA1-Digest: T4hqmtIXvfTMteEBNtzqGhnCC34=
-
-Name: com/servoy/eclipse/core/util/UIUtils$8.class
-SHA1-Digest: GKCuAMlOTDkoTeGextXjuyiWLvY=
+SHA1-Digest: cT8znbnSSIOFEryv3rPI+uMcTkE=
 
 Name: com/servoy/eclipse/core/util/SplashHandler$1.class
 SHA1-Digest: FGUQSXgw//YrU/Md4pRe9oo2iSk=
+
+Name: com/servoy/eclipse/core/util/UIUtils$8.class
+SHA1-Digest: GKCuAMlOTDkoTeGextXjuyiWLvY=
 
 Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixCreateInfoForCol
  umn.class
@@ -104,7 +100,7 @@ SHA1-Digest: z8qPkgnmi4+9TfUQ5r6s9zzyrQs=
 
 Name: com/servoy/eclipse/core/Activator$SQLExplorerAliasCreatorJob.cla
  ss
-SHA1-Digest: JlIVeVGBAg437AiAI16VLilPHwU=
+SHA1-Digest: i/2MV4o3waQ9RcxIVL0KK8lM7rc=
 
 Name: com/servoy/eclipse/core/quickfix/ChangeSolutionTypeQuickFix.clas
  s
@@ -130,17 +126,20 @@ Name: com/servoy/eclipse/core/quickfix/ChangeResourcesProjectQuickFix$
  ResourcesProjectSetupJob.class
 SHA1-Digest: jSzyx79F7d5IqU/HUiJiCAlE9z4=
 
-Name: com/servoy/eclipse/core/resource/DesignerFormPropertyType.class
-SHA1-Digest: /zVYN4TbE4EhuUbZi2/dbU5JmEg=
-
 Name: com/servoy/eclipse/core/Activator$6$4$1.class
-SHA1-Digest: ZxaeeL1o3gBpIQ3neevQtheIq68=
+SHA1-Digest: O0AS3vF7nWGhqfQ3CKYQVvbxRMk=
 
 Name: com/servoy/eclipse/core/Activator$5.class
-SHA1-Digest: dnQaYhODY1Mj7MmIF9jkU9ubTsw=
+SHA1-Digest: /eJJhu/hPX9yqpkLALNj538y6E0=
+
+Name: com/servoy/eclipse/core/doc/servoydoc.xml.r6015
+SHA1-Digest: qOuNp62KFEgN9CMRcNJNqI0wMSA=
+
+Name: com/servoy/eclipse/core/doc/servoydoc.xml.r6017
+SHA1-Digest: Xe/zCfV8/WtlE09EldBlYS6rtlk=
 
 Name: com/servoy/eclipse/core/doc/servoydoc_jslib.html
-SHA1-Digest: LVwGVekDCqAtk8eWn9ihXORWWGY=
+SHA1-Digest: 3GRKPI4zqh2LvtlhoX0V5JJ2JsQ=
 
 Name: com/servoy/eclipse/core/ServoyModel$1$4$1.class
 SHA1-Digest: 6rAn8zOU+BlsirTmS2Spwb+55Sw=
@@ -153,7 +152,7 @@ Name: com/servoy/eclipse/core/quickfix/security/RemoveAccessMaskForMis
 SHA1-Digest: ZUT7xMNMgV/Rmuq03ZjSgv8n2A8=
 
 Name: com/servoy/eclipse/core/Activator$6$2$1.class
-SHA1-Digest: qhSLPrc5yVL0m9rgWU1YOz6LA5Y=
+SHA1-Digest: oGUp7or02Yywx89DIafgXEP9/QI=
 
 Name: com/servoy/eclipse/core/repository/EclipseUserManager$2.class
 SHA1-Digest: BTagEe8Fq/xFqjMB09POxWOFjbY=
@@ -227,7 +226,7 @@ Name: com/servoy/eclipse/core/quickfix/DeleteOrphanPersistQuickFix.cla
 SHA1-Digest: 6egvWX3596W0ZpDUZfi9/uuG8sM=
 
 Name: com/servoy/eclipse/core/Activator$8.class
-SHA1-Digest: vM9oVTHv4uhymA0A3CmNm+Kh7CU=
+SHA1-Digest: 0rpSCUl4l4BTKrn6cxcrksYFMuA=
 
 Name: com/servoy/eclipse/core/StartPageBrowserEditor$1$1.class
 SHA1-Digest: BAMxrY0Ygi4GUxEnUqaiQqBq2Ks=
@@ -275,13 +274,13 @@ Name: com/servoy/eclipse/core/ServoyModel$9$6.class
 SHA1-Digest: Q9eqdDMnKjwkdjc7HZlfZFFA0oc=
 
 Name: com/servoy/eclipse/core/Activator$3.class
-SHA1-Digest: LHhGYVw1JIS6vr7ZFroS4UQqPYY=
+SHA1-Digest: g/PqB3fgF7Erdzt035/Ie3FaQTw=
 
 Name: com/servoy/eclipse/core/builder/OpenWithEditor.class
 SHA1-Digest: 2cb5IZ5ITnhO02wh/MZuNq/x2EE=
 
 Name: com/servoy/eclipse/core/Activator$6$3.class
-SHA1-Digest: X38YWYTsI6dKMI/h3cWQ2lvw+8I=
+SHA1-Digest: 99PM/vI1+R61gPqr/lfLWBQboWY=
 
 Name: com/servoy/eclipse/core/ServoyModel$9$2.class
 SHA1-Digest: Dc6UdW2KscNDwbJoEQ3fvDnCg0U=
@@ -311,7 +310,7 @@ Name: com/servoy/eclipse/core/util/UIUtils$ScrollableDialog.class
 SHA1-Digest: MCdB8xgd2byiCDvIL/HJy3w2+ws=
 
 Name: com/servoy/eclipse/core/Activator$2$1.class
-SHA1-Digest: jIgsgiGFJnIjAZG7SJZpAoZdbUo=
+SHA1-Digest: jhNlWb25zLFsZcFM9AyINRN/vr0=
 
 Name: icons/icon.xpm
 SHA1-Digest: bORNQ2fZk0WTUgYgAOWWgWm5Tes=
@@ -340,7 +339,7 @@ Name: com/servoy/eclipse/core/MethodTemplatesLoader.class
 SHA1-Digest: K6aMOnMksaM+7VbJ+k33/uPgBkM=
 
 Name: com/servoy/eclipse/core/Activator$10$2$1.class
-SHA1-Digest: TFXbzTyPpNd+0jIDc0+1MgcbVeU=
+SHA1-Digest: ngOiiF+WireiD7387IoLg87EWBQ=
 
 Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixRenameInfoFromCo
  lumn.class
@@ -350,14 +349,14 @@ Name: com/servoy/eclipse/dnd/FormElementDragData.class
 SHA1-Digest: Gw3fw0gG7DakAvPwKSJ5Psk3gM8=
 
 Name: com/servoy/eclipse/core/doc/servoydoc.warnings.txt
-SHA1-Digest: KTPnA+9qZFowR8fgbOruXddOsDw=
+SHA1-Digest: f4ltm7WOKiI04h5NWrWeCuTKmr8=
 
 Name: com/servoy/eclipse/core/repository/EclipseImportUserChannel$4.cl
  ass
 SHA1-Digest: veatbvru7YHnoJ/g3lOWNRZmhec=
 
 Name: com/servoy/eclipse/core/doc/servoydoc.html
-SHA1-Digest: Ti9Tgj0lMdFwT1IqBMx2NbOf70A=
+SHA1-Digest: CaSHijPhoNoBOgD4SX3McJwK82M=
 
 Name: plugin_customization.ini
 SHA1-Digest: yL5iS9GMJhodBQiXRc3SH8fY/Iw=
@@ -403,7 +402,7 @@ Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixCreateColumnInDB
 SHA1-Digest: 0jbngbgnN5iaBDtBKQJIoZvO+9U=
 
 Name: com/servoy/eclipse/core/Activator$10$2$2.class
-SHA1-Digest: hjjGkkVWPwVmKopYEH57yLTGLLI=
+SHA1-Digest: q93BYRCE1MeOOV2F1l3dgwY9V+M=
 
 Name: com/servoy/eclipse/core/repository/EclipseImportUserChannel$5.cl
  ass
@@ -440,10 +439,10 @@ Name: com/servoy/eclipse/core/util/BuilderUtils.class
 SHA1-Digest: 3Qk3dKYi0+k/s58LVR64s0SC5EE=
 
 Name: com/servoy/eclipse/core/Activator$10.class
-SHA1-Digest: E0twujSfYbFQKeAwkczrjSh3hK8=
+SHA1-Digest: Jq41whNsqGFZxmUJRiCLw4iiW0k=
 
 Name: com/servoy/eclipse/core/Activator$2.class
-SHA1-Digest: xWbzBNai41X4rOWTkaBVt3FoqFY=
+SHA1-Digest: fu2hEWCUKcl2S635Kq1EArP4B38=
 
 Name: com/servoy/eclipse/core/quickfix/DuplicateUuidQuickFix.class
 SHA1-Digest: CwWcUhRWZlLUmkobqKIcdCJlaTk=
@@ -457,9 +456,6 @@ SHA1-Digest: KQ9WD4kfDDOIUzrbTYnvpoqDHZY=
 
 Name: intro/introData.xml
 SHA1-Digest: iDJy1G//AC16YC0jVhbM6nDdsFo=
-
-Name: com/servoy/eclipse/core/resource/DesignerTypes.class
-SHA1-Digest: cqPxQ0YWEWe1LNU6A1djQgZa4RM=
 
 Name: config.ini
 SHA1-Digest: i7A0KorIpwAWVhyY/Z5BZH69Utk=
@@ -540,7 +536,7 @@ Name: icons/windowIcon128.png
 SHA1-Digest: fK0VO4DbmAaHKp5Id7OPE7C8K0M=
 
 Name: com/servoy/eclipse/core/Activator$6$1$1.class
-SHA1-Digest: 7wnDCvXVLE1W2+lK10nOfE6fPHE=
+SHA1-Digest: TvtPNtikn1G08AgSIbvVqWdHV/I=
 
 Name: com/servoy/eclipse/core/util/UIUtils$MessageAndCheckBoxDialog.cl
  ass
@@ -565,10 +561,13 @@ Name: com/servoy/eclipse/core/ServoyUpdatingProject$1.class
 SHA1-Digest: jJPLa/IzTCeiz01RawKfCe/lBR4=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory.class
-SHA1-Digest: SaF+2+MJZPXQBOR1F6hwa5kt2z4=
+SHA1-Digest: UbE4g3UsL30CRLTvWWNQCT+PddA=
+
+Name: com/servoy/eclipse/core/doc/servoydoc.xml.mine
+SHA1-Digest: UFy7LYdOeyM3ha7OkukZ9/SBY9A=
 
 Name: com/servoy/eclipse/core/Activator$6$1$5.class
-SHA1-Digest: ZMCAmqzJkshFEPEH4UBkzqwEAlo=
+SHA1-Digest: 3sreJmwF4tHdI3GHIoZfc+W1eHw=
 
 Name: com/servoy/eclipse/core/quickfix/NoResourcesMarkerQuickFix.class
 SHA1-Digest: C9LemffUPek4+2GnF2qzqdUhhu4=
@@ -584,14 +583,14 @@ Name: com/servoy/eclipse/core/util/UIUtils$5.class
 SHA1-Digest: 89bRRuVLlneVzLw6eRB8N7sIyz0=
 
 Name: com/servoy/eclipse/core/Activator$6$1$2.class
-SHA1-Digest: 2LfPMNr0699v33VqIQI/I3lJFV4=
+SHA1-Digest: HT3VJVDM6XDG1BOTPiFFg+vg/Gc=
 
 Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixDeleteInfoForCol
  umn.class
 SHA1-Digest: gDAIqBo6CmyxH9mRb3GAGlZ2fE4=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory$3.class
-SHA1-Digest: BHAvdccNbfIWYMlM/AwUy7pNVX0=
+SHA1-Digest: BPLRYHF9Bs2xdr4JdWWmpmVc3cM=
 
 Name: com/servoy/eclipse/core/JSDeveloperSolutionModel.class
 SHA1-Digest: nSA/0rWHa9BoA1OQYxw1qeax4C8=
@@ -603,10 +602,10 @@ Name: com/servoy/eclipse/core/MediaURLStreamHandlerService.class
 SHA1-Digest: Qq9R3pUPiIRqTx7NuUY8+IM1ATU=
 
 Name: com/servoy/eclipse/core/Activator$6$1$3.class
-SHA1-Digest: cqai1fEvRAd7I4q5s+AgFqYQS/A=
+SHA1-Digest: Ofk/GUL2GhVCO/bxg04WuxA5H7A=
 
 Name: com/servoy/eclipse/core/Activator$10$2.class
-SHA1-Digest: lADcyWagicRsP06PoaS8r83VuMg=
+SHA1-Digest: oSZZWgQLXKxlQCaY00QHCc73jis=
 
 Name: com/servoy/eclipse/core/repository/EclipseImportUserChannel.clas
  s
@@ -624,7 +623,7 @@ Name: com/servoy/eclipse/dnd/FormElementDragData$PersistDragData.class
 SHA1-Digest: WBukjUrgJk5rP+HHwpCB2c6vxEA=
 
 Name: com/servoy/eclipse/core/Activator$6$1$4.class
-SHA1-Digest: PL/RqVYdPEdGkhGM8F0qXo1YqMo=
+SHA1-Digest: p4vVlhDt4E2eH+infAEhJNPPUAc=
 
 Name: com/servoy/eclipse/core/IOFileAccess.class
 SHA1-Digest: 9Fobr451DgFEM0yD3NY0PUmXpcI=
@@ -633,7 +632,7 @@ Name: com/servoy/eclipse/core/ServoyModel$13.class
 SHA1-Digest: tz3Zh4ru1VGdEIFg6Q/VE9Cz2rU=
 
 Name: com/servoy/eclipse/core/Activator$7.class
-SHA1-Digest: zlis8/pAbWYeqZ9nsZsQFlnRUkM=
+SHA1-Digest: 2gy1/NzMQvVwyqbxfqeBb/5Rupk=
 
 Name: com/servoy/eclipse/core/ServoyModel$22.class
 SHA1-Digest: zXeGNfm96Qlu6S+pHDBNiAEoejY=
@@ -642,7 +641,7 @@ Name: com/servoy/eclipse/core/ServoyModel$4.class
 SHA1-Digest: HXwG62sCwbigRz864ybkYNnqKLc=
 
 Name: com/servoy/eclipse/core/Activator$6$1.class
-SHA1-Digest: y+dm8paRuXVBhKROMupkSloorMw=
+SHA1-Digest: cdBD+ZCCVZcgcYaCO3k93Cwfnbw=
 
 Name: com/servoy/eclipse/core/ServoyModel$5.class
 SHA1-Digest: El3IczLjHKXS3jEQHGgkRtd3MVo=
@@ -675,7 +674,7 @@ SHA1-Digest: xhz8ZCJtLusfDME5ldWR5OPVolA=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory$RelatedForm.clas
  s
-SHA1-Digest: q5taAG09tFM+lIygWlBu4lZS+GU=
+SHA1-Digest: f2x6Tc7Kf3LzYAkEUuvHjjWI0BM=
 
 Name: com/servoy/eclipse/core/ServoyModel$25.class
 SHA1-Digest: iEufz+XejWjQQzwkLqjv8Y+Eq5g=
@@ -700,7 +699,7 @@ Name: com/servoy/eclipse/core/ActiveSolutionProvider.class
 SHA1-Digest: jRHUAsrAFFE6I1DG4zUWSBEw6Y0=
 
 Name: com/servoy/eclipse/core/Activator$6.class
-SHA1-Digest: QRiyOV2FmcB3n/sSIOLTJAr6WEg=
+SHA1-Digest: 3rZWrLgLqZlDgy5+t42TigjjcIg=
 
 Name: com/servoy/eclipse/core/ServoyModel$24.class
 SHA1-Digest: +WsXgOsMev4wDOT7Fve2WO3JGKA=
@@ -753,13 +752,13 @@ Name: com/servoy/eclipse/core/ServoyModel$18.class
 SHA1-Digest: WNycIuGc6hnTS4Smb9OsyBlnXvI=
 
 Name: com/servoy/eclipse/core/Activator$9.class
-SHA1-Digest: 7V+Xa69q5MIvQtcRfD+c1LR4898=
+SHA1-Digest: 7d0LuWkVgfumATomeVpvR1/mQn0=
 
 Name: com/servoy/eclipse/core/XMLScriptObjectAdapterLoader.class
 SHA1-Digest: QB2c5dWjMAA+lcOSPApXvfFVE/g=
 
 Name: com/servoy/eclipse/core/Activator$10$1$1.class
-SHA1-Digest: VQNZmb+BA3ibf9+ZRfKiJAVxDG0=
+SHA1-Digest: 92T+CdWKTS5YxS8CP+9vJXLnyQM=
 
 Name: com/servoy/eclipse/core/quickfix/security/RemoveAllButOneOfTheAc
  cessMasksForElement$1.class
@@ -814,7 +813,7 @@ Name: com/servoy/eclipse/core/util/UIUtils$YesYesToAllNoNoToAllAsker.c
 SHA1-Digest: 8ow5hZKkUfc4clauJ5pZPhR0Znw=
 
 Name: com/servoy/eclipse/core/Activator$6$2.class
-SHA1-Digest: KKeAjSI3CoBnqVfFql+CWmxclLk=
+SHA1-Digest: bFCYpuEvqaqQ8w9FJ+4gkYM7N6A=
 
 Name: com/servoy/eclipse/core/util/DatabaseUtils.class
 SHA1-Digest: Wtq3hxiP9m6KGXYmgLQl5pkW5Y4=
@@ -839,15 +838,11 @@ Name: com/servoy/eclipse/core/util/UIUtils$10.class
 SHA1-Digest: 535hJJLvP0+E9hlIpnbv0pld3Mg=
 
 Name: com/servoy/eclipse/core/doc/servoydoc.xml
-SHA1-Digest: lKq0YtEhHRj/QKrSv6sLf7xqS5Y=
+SHA1-Digest: OTG6uQtR6oGLS9KFPhCNZHpxs8c=
 
 Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixUpdateColumnFrom
  Info.class
 SHA1-Digest: 18BlyRgLkvSZRkykL1MHjCAPYzI=
-
-Name: com/servoy/eclipse/core/resource/DesignerFoundsetPropertyType.cl
- ass
-SHA1-Digest: gXgYhxBp2eqKKL8ZsMdWxA19ttY=
 
 Name: com/servoy/eclipse/core/extension/ExtensionUIUtils.class
 SHA1-Digest: qiskACezGKs8WEHyKCPLwJYmw+s=
@@ -857,11 +852,11 @@ SHA1-Digest: /zcj5QNq1nGMkvj03s4hap+MuJ8=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory$INameGenerate$2.
  class
-SHA1-Digest: RFSfdnwv1RLh6h5Shjql1S4ENdk=
+SHA1-Digest: b5xtXE9CWV0m1neLU93J0xfoFRQ=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory$INameGenerate.cl
  ass
-SHA1-Digest: E3bjMlh+2ZjZoalJIo1k+W6MMBI=
+SHA1-Digest: jCdgcVPWiOg+dinQ/c94fnyU48E=
 
 Name: com/servoy/eclipse/core/quickfix/DeletePersistQuickFix.class
 SHA1-Digest: X+7VRUSBXSY50QQv3wd+I3VsgQY=
@@ -871,7 +866,7 @@ Name: com/servoy/eclipse/core/quickfix/security/SecurityQuickFix$GetNe
 SHA1-Digest: uUxwxwAAJ1CM5qowYyVwJHIjCvI=
 
 Name: about.properties
-SHA1-Digest: gUaKEqJyssI2sUapSvzqrhwRDsc=
+SHA1-Digest: ZW2omyyrK2hc/FwthzNwvdDOocQ=
 
 Name: com/servoy/eclipse/core/ServoyModel$4$1.class
 SHA1-Digest: TmoVD+B3gN3/EU+tzcOEbnI18ZI=
@@ -974,7 +969,7 @@ Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixUpdateColumnFrom
 SHA1-Digest: u2bqu7VNf3auBmfw8w/fDWU0uk8=
 
 Name: com/servoy/eclipse/core/Activator.class
-SHA1-Digest: J1t+TfVD9WyErvWU5NnYoJXuv7I=
+SHA1-Digest: yJwVRcg+/s0+pjA7gAIgW8xqfI4=
 
 Name: com/servoy/eclipse/core/extension/ChainedFileBasedExtensionProvi
  der.class
@@ -988,7 +983,7 @@ Name: about.ini
 SHA1-Digest: krJ+fUgMxsRcScxcE7NJX6GzNlQ=
 
 Name: com/servoy/eclipse/core/Activator$6$4.class
-SHA1-Digest: Jl19RrQwMGNrAYLM+yDNOLoimIA=
+SHA1-Digest: 6cSPMwxIvMEVaDq+zFgLz03A2gE=
 
 Name: com/servoy/eclipse/core/util/UIUtils$7.class
 SHA1-Digest: Cj9pmJREr7QWCxMj1pEhFANHzpo=
@@ -998,7 +993,7 @@ SHA1-Digest: RqSSZqh4zY7ve2VWjTTnbvHZoxc=
 
 Name: com/servoy/eclipse/core/elements/ElementFactory$INameGenerate$1.
  class
-SHA1-Digest: gRtsN9ojzt830D54yGentFg7TxU=
+SHA1-Digest: /zDQVdA5tp6jySCNublocEs0CGA=
 
 Name: com/servoy/eclipse/core/quickfix/security/RemoveUserReferenceInG
  roup.class
@@ -1011,7 +1006,7 @@ Name: com/servoy/eclipse/core/util/UIUtils$2.class
 SHA1-Digest: rk2DbvLLozpFC0EsMMS9n+sQwYc=
 
 Name: com/servoy/eclipse/core/Activator$4$1.class
-SHA1-Digest: NPyYtSJ20bmzlzzXfcUsJFh1ZV8=
+SHA1-Digest: M85Z+QD6ZuvHgwjyMG3nCf6eOiA=
 
 Name: com/servoy/eclipse/core/quickfix/ChangeResourcesProjectQuickFix$
  ResourcesProjectChooserComposite$3.class
@@ -1036,7 +1031,7 @@ Name: com/servoy/eclipse/core/util/UIUtils$11.class
 SHA1-Digest: PlCEJdvD9BDJ3dycVwn3O28T2wc=
 
 Name: com/servoy/eclipse/core/Activator$10$1.class
-SHA1-Digest: b74eBQosRZFyey4Hx/2CW5c56EA=
+SHA1-Digest: MLaVaWamVJiD4tMm7kM3MlTh+GM=
 
 Name: com/servoy/eclipse/core/util/UIUtils$4.class
 SHA1-Digest: D0DwlTc2R7dlpvS/AMgLC3lRd5k=
@@ -1044,10 +1039,6 @@ SHA1-Digest: D0DwlTc2R7dlpvS/AMgLC3lRd5k=
 Name: com/servoy/eclipse/core/repository/UnexpectedSituationHandler$2.
  class
 SHA1-Digest: X62D+ExW5ozhntsl0/AkEtg6bIk=
-
-Name: com/servoy/eclipse/core/resource/DesignerDataproviderPropertyTyp
- e.class
-SHA1-Digest: aodQ9CQBmfTby6JzmP01ipB47zU=
 
 Name: com/servoy/eclipse/core/util/UIUtils$7$1.class
 SHA1-Digest: 2Kdqri7cYdJRrG4+CeFD9oG6AKY=
@@ -1060,7 +1051,7 @@ Name: com/servoy/eclipse/core/ServoyModel$7.class
 SHA1-Digest: WwCN1aHcTdMA7Z8f3VOdaFBkUSU=
 
 Name: com/servoy/eclipse/core/Activator$4.class
-SHA1-Digest: 6uJc3pyDXfBmNiEQVfC1UAJKbeg=
+SHA1-Digest: UpwSYZZEOzH8hMxXK7PEMav7kik=
 
 Name: com/servoy/eclipse/core/repository/I18NMessagesUtil.class
 SHA1-Digest: W5W3spJ5CBeeZ99P17XmRs/0JjI=
@@ -1132,10 +1123,6 @@ Name: com/servoy/eclipse/core/quickfix/security/ReplaceUUIDForOneOfUse
  rsWithDuplicateUUID.class
 SHA1-Digest: bx+bnJni41B01/SPucpv/tupkXY=
 
-Name: com/servoy/eclipse/core/resource/DesignerValueListPropertyType.c
- lass
-SHA1-Digest: Zj13foqoVltsQBcI3s3TXDqFwoc=
-
 Name: com/servoy/eclipse/core/quickfix/security/CorrectInvalidUser.cla
  ss
 SHA1-Digest: DUATMXdndEyLS9P0Fp315EACpcM=
@@ -1153,10 +1140,6 @@ Name: com/servoy/eclipse/core/quickfix/dbi/DBIQuickFixUpdateInfoFromCo
  lumn.class
 SHA1-Digest: 1aBZi6SvibEG1WA/aCgvpLWJPeo=
 
-Name: com/servoy/eclipse/core/resource/DesignerFoundsetPropertyType$1.
- class
-SHA1-Digest: /l1XEcvGCjHSc8zEffI4iThSQuI=
-
 Name: com/servoy/eclipse/core/ServoyModel.class
 SHA1-Digest: gzu60rLdIZybjLuT/OAPP67orG4=
 
@@ -1166,7 +1149,7 @@ SHA1-Digest: 7zHQZ+8j+DeYoHHXAHPiqHj9o9w=
 
 Name: com/servoy/eclipse/core/Activator$SQLExplorerAliasCreatorJob$1.c
  lass
-SHA1-Digest: DpXhIVjKjAX35XZFlzc8hunrw+c=
+SHA1-Digest: HSubMf4ZJ6E1mlvu/2wC1vL1G0w=
 
 Name: com/servoy/eclipse/core/ModelPreChangeListener$1.class
 SHA1-Digest: +yYCtNP4p8XThFfxRKDKpPH4WLg=
