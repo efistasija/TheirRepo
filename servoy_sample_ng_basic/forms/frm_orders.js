@@ -264,6 +264,7 @@ function onLoad()
  * @properties={typeid:24,uuid:"71B36F4D-A643-49F0-9EC5-542EF6AA2FC6"}
  */
 function onShow(firstShow, event) {
+	_super.onShow(firstShow,event);
 	//if we are not in edit mode, disable fields that are editable
 	if(!globals.isEditing()) {
 		hideBtnResetFields();
@@ -299,12 +300,10 @@ function sub_slideLabels()
 	//if the order is closed (is_active == 1) - don't show the add or edit buttons
 	if(!globals.isEditing() || is_active == 0)
 	{
-		application.output("Not editing");
 		forms.lst_order_items.showHideAddShowButton(false);
 	}
 	else
 	{
-		application.output("Editing");
 		forms.lst_order_items.showHideAddShowButton(true);
 	}
 }
@@ -327,41 +326,38 @@ function validate_beforeDelete()
 }
 
 /**
- * @public
- * @properties={typeid:24,uuid:"B9EF64BC-A31D-4F51-8467-BE22AA69C3C2"}
- */
-function printDefault()
-{
-	rpt_printThisOrder();
-}
-
-/**
- * @properties={typeid:24,uuid:"c51f7a81-8193-4f9f-9edb-b2c9274896cf"}
- */
-function rpt_printOrderReport()
-{
-	//load the related items for this order
-	forms.rpt_order_form.controller.loadRecords(orders_to_order_items);
-
-	forms.rpt_order_month.controller.sort('order_month_year asc, orders_to_companies.company_name asc');
-
-	globals.printRoutine('rpt_order_form', null);
-}
-
-/**
- * @properties={typeid:24,uuid:"6213972b-f0db-4996-8be5-b9aca7398efd"}
- */
-function rpt_printThisOrder()
-{
-	//load the related items for this order
-	forms.rpt_order_form.controller.loadRecords(orders_to_order_items);
-
-	globals.printRoutine('rpt_order_form', null);
-}
-
-/**
  * @properties={typeid:24,uuid:"BEC30A51-D157-47C4-82BC-F04948410FF7"}
  */
 function getOrderId() {
 	return order_id;
+}
+
+/**
+ * Creates a new order record and assigns it to the company
+ * 
+ * @param {Number} companyID
+ *
+ * @public
+ * 
+ * @properties={typeid:24,uuid:"8365F71C-494C-4C67-AA24-2E9AE70201B5"}
+ */
+function createNewRecord(companyID) {
+	//if there's no transaction, start one - so they can "cancel"
+	if(!globals.isEditing()) {
+		globals.startEditing();
+	}
+	
+	//create a new record
+	foundset.newRecord(true);
+	
+	//bind the contact with the proper company
+	//do the auto-enter stuff
+	validate_autoEnter();
+	foundset.company_id = companyID;
+	
+	//globals.saveEdits();
+	//call the edit method so they can edit the record
+	doEdit();
+
+	controller.focusFirstField();
 }

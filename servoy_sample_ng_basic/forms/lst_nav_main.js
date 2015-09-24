@@ -16,10 +16,11 @@ function enableTab(itemName){
 }
 
 /**
+ * @param {JSEvent} event the event that triggered the action
  * @properties={typeid:24,uuid:"a0c21699-fea8-4445-81e4-8494edb62c56"}
  * @AllowToRunInFind
  */
-function btn_search()
+function btn_search(event)
 {
 	//see what form is front-most i.e. active in the main panel
 	var selectedRecord = forms.lst_solution_navigation.getSelectedRecord().toLowerCase();
@@ -228,13 +229,13 @@ function btn_search()
 		else
 		{
 			//show the "show all" button
-			forms.frm_nav_CRUD.sub_showShowAll();
+			forms.frm_nav_top.sub_showShowAll();
 		}
 	}
 	else
 	{
 		//empty search - so show all
-		forms.frm_nav_CRUD.btnShowAll();
+		forms.frm_nav_top.btnShowAll(event);
 		elements.txtSearch.requestFocus(false);
 	}
 }

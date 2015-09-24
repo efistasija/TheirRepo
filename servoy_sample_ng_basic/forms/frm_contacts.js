@@ -158,6 +158,7 @@ function btnCancel(event) {
  * @properties={typeid:24,uuid:"8A7DF4EC-FFD8-4197-AC6C-99C4B0896534"}
  */
 function onShow(firstShow, event) {
+	_super.onShow(firstShow,event);
 	//if we are editing a newly created contact, do not disable form fields
 	if(!globals.isEditing()){
 		hideBtnResetFields();
@@ -228,4 +229,38 @@ function validate_beforeDelete()
 	{
 		return 0;
 	}
+}
+
+/**
+ * Creates a new contact record and assigns it to the company
+ * 
+ * @param {Number} companyID
+ *
+ * @public
+ * 
+ * @properties={typeid:24,uuid:"C7B9AA4E-B994-460B-A7E8-DF60FF525AB2"}
+ */
+function createNewRecord(companyID) {
+	//if there's no transaction, start one - so they can "cancel"
+	if(!globals.isEditing()) {
+		globals.startEditing();
+	}
+	
+	//create a new record
+	foundset.newRecord(true);
+	
+	//bind the contact with the proper company
+	foundset.company_id = companyID;
+	
+	//activate the edit
+	doEdit();
+
+	focusFirstField();
+}
+
+/**
+ * @properties={typeid:24,uuid:"73D392C2-BF15-4BE4-BE6F-C24144F94441"}
+ */
+function focusFirstField() {
+	controller.focusFirstField();
 }

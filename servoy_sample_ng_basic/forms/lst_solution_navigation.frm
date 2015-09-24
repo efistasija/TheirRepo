@@ -4,7 +4,7 @@ initialSort:"solution_id desc",
 items:[
 {
 displaysTags:true,
-location:"3,80",
+location:"2,49",
 name:"lblIcon",
 size:"30,25",
 text:"%%displayIcon%%",
@@ -24,12 +24,13 @@ typeid:19,
 uuid:"9A0EBBCD-05F4-4750-886E-296CC7F368B7"
 },
 {
-anchors:11,
 dataProviderID:"item_name",
-location:"38,82",
-size:"140,20",
-typeid:4,
-uuid:"D35187B3-950F-40B9-929A-6E815841540E"
+location:"33,50",
+name:"lblItemName",
+size:"167,20",
+text:"label",
+typeid:7,
+uuid:"B3697241-15BE-4798-B46E-5B2DE24350DA"
 },
 {
 borderType:"EmptyBorder,0,0,0,0",

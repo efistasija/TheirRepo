@@ -129,36 +129,6 @@ function doEdit()
 	elements.btnCancel.visible = true;
 }
 
-
-/**
- * Perform create new record.
- *
- * @param {JSEvent} event the event that triggered the action
- *
- * @protected
- *
- * @properties={typeid:24,uuid:"41B0339D-13B7-4DE7-B486-1D553C9BB6CD"}
- */
-function cmdNewRecord(event) {
-	forms.frm_nav_CRUD.btnAdd();
-}
-
-/**
- * @properties={typeid:24,uuid:"5380FDD7-BDF6-4A11-9C9B-2B1DE3B9FBFA"}
- */
-function cmdDeleteRecord()
-{
-	forms.frm_nav_CRUD.btnDelete();
-}
-
-
-/**
- * @properties={typeid:24,uuid:"A63DF650-6229-4686-88ED-4BF2E9D8098E"}
- */
-function cmdShowAll()
-{
-	forms.frm_nav_CRUD.btnShowAll();
-}
 /**
  * @properties={typeid:24,uuid:"1D8FABF8-EC16-4EB8-B7D3-F26371586F86"}
  */
@@ -216,7 +186,7 @@ function btnAdd(event) {
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected
+ * @public
  *
  * @properties={typeid:24,uuid:"F33DEAE2-827F-4E7B-B25B-6F6D337614F2"}
  * @AllowToRunInFind
@@ -348,14 +318,7 @@ function btnDelete(event) {
  * @properties={typeid:24,uuid:"43B09C7A-B5A3-4BF4-91DA-ED4892A36175"}
  */
 function onShow(firstShow, event) {
-	application.output("On top nav form show");
 	//see what form is front-most
-//	var selectedRecord = forms.lst_solution_navigation.getSelectedRecord().toLowerCase();
-//	//to account for the form name for customers actually being companies
-//	if(selectedRecord.equalsIgnoreCase('customers')){
-//		selectedRecord = 'companies';
-//	}	
-//	var frm = 'frm_'+ selectedRecord;
 	var frm = event.getFormName();
 
 	//See if the foundset contains all the records from the table. 
@@ -363,14 +326,10 @@ function onShow(firstShow, event) {
 	//Otherwise there are records that are not loaded in the foundset - show the ShowAll button.
 	if(databaseManager.getTableCount(forms[frm].foundset) > databaseManager.getFoundSetCount(forms[frm].foundset))
 	{
-		application.output("Show all button should be shown, database table #: "+databaseManager.getTableCount(forms[frm].foundset));
-		application.output("Foundset count" + databaseManager.getFoundSetCount(forms[frm].foundset));
-
 		sub_showShowAll();
 	}
 	else
 	{
-		application.output("Show all button should be hidden");
 		sub_hideShowAll();
 	}
 }

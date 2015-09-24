@@ -103,6 +103,7 @@ function selectCompanyRecord(curCompanyID){
  * @properties={typeid:24,uuid:"C7A1EC48-CF75-44B8-94FF-87968111E1E8"}
  */
 function onShow(firstShow, event) {
+	_super.onShow(firstShow,event);
 	hideBtnResetFields();
 }
 
@@ -258,7 +259,7 @@ function sub_showCompanyOrders()
 
 	//change tabs in main navigation form
 	forms.lst_solution_navigation.onRecordSelection();
-	forms.frm_nav_CRUD.sub_showShowAll();
+	forms.frm_nav_top.sub_showShowAll();
 }
 
 /**
@@ -275,38 +276,7 @@ function sub_showCompanyContacts()
 
 	//change tabs in main navigation form
 	forms.lst_solution_navigation.onRecordSelection();
-	forms.frm_nav_CRUD.sub_showShowAll();
-}
-
-/**
- * @properties={typeid:24,uuid:"4DDBC649-38D6-4F5D-BB0A-7EAC1673BEA1"}
- */
-function print_default()
-{
-	rpt_company_detail();
-}
-
-/**
- * @properties={typeid:24,uuid:"860337d3-4d8d-4cb9-b3dd-0a1e5344c938"}
- */
-function rpt_company_detail()
-{
-	forms.rpt_company_detail.foundset.selectRecord(company_id);
-	forms.rpt_company_detail.sub_buildReport();
-	globals.printRoutine('rpt_company_detail', true);
-}
-
-/**
- * @properties={typeid:24,uuid:"3bc58b48-645c-4aac-bf28-51582e77f574"}
- * @AllowToRunInFind
- */
-function rpt_company_list()
-{
-	forms.rpt_company_list.loadAllRecords();
-
-	forms.rpt_company_list.sort('company_name','asc');
-
-	globals.printRoutine('rpt_company_list', null);
+	forms.frm_nav_top.sub_showShowAll();
 }
 
 /**
@@ -315,4 +285,32 @@ function rpt_company_list()
  */
 function getCompanyId() {
 	return company_id;
+}
+
+/**
+ * @return {Number} The number of contacts in the currently selected company
+ * 
+ * @properties={typeid:24,uuid:"D3513462-050A-4A7A-BE7F-E0D24939E4AF"}
+ */
+function getNumberOfContactsForSelectedCompany(){
+	return foundset.getSelectedRecord().companies_to_contacts.getSize();
+}
+
+/**
+ * @return {Number} The number of addresses for the currently selected company
+ * 
+ * @properties={typeid:24,uuid:"F5A4BD69-BF03-4BFC-ADC3-EAF7E6CFBE35"}
+ */
+function getNumberOfAddressesForSelectedCompany(){
+	return foundset.getSelectedRecord().companies_to_addresses.getSize();
+}
+
+/**
+ * Set the active tab in the tabs panel
+ * @param {Number} tabIndex
+ *
+ * @properties={typeid:24,uuid:"B38ED86E-11BC-45A1-9350-5CC14D190127"}
+ */
+function setTabPanel(tabIndex){
+	elements.tabsCompanyRelatedInfo.tabIndex = tabIndex;
 }

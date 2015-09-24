@@ -129,41 +129,25 @@ function cancelEditing()
 function setupWcValueList(arg0)
 {
 	//this routine will examine a value list for "-" items - and remove them
-	var listName = arg0
+	var listName = arg0;
 	if(!listName) return;
 
-	var dataset = application.getValueListItems(listName)
+	var dataset = application.getValueListItems(listName);
 
 	if(dataset)
 	{
-		var myArray = new Array()
-		var max = dataset.getMaxRowIndex()
-		var temp = ''
+		var myArray = new Array();
+		var max = dataset.getMaxRowIndex();
+		var temp = '';
 
 		for ( var i = 1 ; i <= max  ; i++ )
 		{
-			temp = dataset.getValue(i, 1)
-			if(temp != '-') myArray.push(temp)
+			temp = dataset.getValue(i, 1);
+			if(temp != '-') {
+				myArray.push(temp);
+			}
 		}
 
-		application.setValueListItems( listName, myArray)
+		application.setValueListItems(listName, myArray);
 	}
-}
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param formname
- * @param rec
- *
- * @properties={typeid:24,uuid:"BEDC1810-130E-4890-BAD7-D63F3FFF3CB5"}
- */
-function printRoutine(formname, rec) {
-	var frm = formname;
-	var oneRecord = rec;
-
-	if(!oneRecord) oneRecord = false;
-
-	if(!frm) return;
-
-	forms[frm].controller.showPrintPreview(oneRecord);
 }

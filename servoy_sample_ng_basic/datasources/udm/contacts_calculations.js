@@ -25,7 +25,8 @@ function mailing_address_label()
 	{
 		var address = "";
 		
-		if(contacts_to_companies && contacts_to_companies.company_name && (mail_use_company == 1)) 
+		application.output(contacts_to_companies + "/" + contacts_to_companies.company_name + "/" + (mail_use_company == 1));
+		if(contacts_to_companies && (mail_use_company == 1)) 
 		{
 			address = contacts_to_companies.company_name;
 			application.output("address: "+address);

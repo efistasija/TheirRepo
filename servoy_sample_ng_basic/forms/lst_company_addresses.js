@@ -4,7 +4,7 @@
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected
+ * @public
  *
  * @properties={typeid:24,uuid:"E638A0B4-F62F-4FBE-9E8C-EC913297CE7E"}
  */

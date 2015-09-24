@@ -2,15 +2,11 @@ dataSource:"db:/udm/products",
 extendsID:"E18B3F73-B2F5-4CCF-B611-B5F1CBE389E0",
 items:[
 {
-anchors:11,
-borderType:"EmptyBorder,0,0,0,0",
 dataProviderID:"list_nav_products_display",
-editable:false,
-location:"50,74",
-onActionMethodID:"174B357D-2F78-40EF-88C1-4AC88DC92DDF",
-size:"140,20",
-typeid:4,
-uuid:"69C0977B-8640-4352-BC01-EC2D8667EE18"
+location:"32,49",
+size:"168,20",
+typeid:7,
+uuid:"8301BF17-9D24-4DC9-84D1-A2FAC6814DED"
 },
 {
 extendsID:"36BEBE2B-BEE1-4002-8900-1EDD2AA1387E",
@@ -29,7 +25,7 @@ uuid:"D737229F-ADBD-4EEA-A846-A95DD3DEB164"
 {
 borderType:"EmptyBorder,0,0,0,0",
 displaysTags:true,
-location:"7,75",
+location:"1,48",
 onActionMethodID:"174B357D-2F78-40EF-88C1-4AC88DC92DDF",
 size:"30,20",
 text:"%%displayIconOnRecord%%",
@@ -39,5 +35,6 @@ uuid:"D76776AC-8227-442B-B193-F1BC7CA31043"
 ],
 name:"lst_products",
 onRecordSelectionMethodID:"174B357D-2F78-40EF-88C1-4AC88DC92DDF",
+scrollbars:0,
 typeid:3,
 uuid:"F3EC9227-57E8-4092-8731-1B188FDD2B91"

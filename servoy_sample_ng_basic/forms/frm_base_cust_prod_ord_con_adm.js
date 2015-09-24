@@ -14,6 +14,8 @@ function btn_sortAsc(event) {
 	elements.btnDesc.imageURL = 'media:///sort_desc_grey.gif';
 	elements.btnAsc.enabled = false;
 	elements.btnDesc.enabled = true;
+	forms[event.getFormName()].controller.setSelectedIndex(1);
+
 }
 
 /**
@@ -31,6 +33,7 @@ function btn_sortDesc(event) {
 	elements.btnDesc.imageURL = 'media:///icons_sample_NG_app/sort_desc.png';
 	elements.btnDesc.enabled = false;
 	elements.btnAsc.enabled = true;
+	forms[event.getFormName()].controller.setSelectedIndex(1);
 }
 
 /**
@@ -44,5 +47,6 @@ function btn_sortDesc(event) {
  * @properties={typeid:24,uuid:"9A02077C-E8D6-40D6-BB7C-A3678D66E021"}
  */
 function onShow(firstShow, event) {
+	application.output("List base form on show");
 	btn_sortAsc(event);
 }

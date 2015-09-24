@@ -95,6 +95,7 @@ function btnCancel(event) {
  * @properties={typeid:24,uuid:"61768478-4196-48D2-BC0F-3FAE3F841C80"}
  */
 function onShow(firstShow, event) {
+	_super.onShow(firstShow,event);
 	if(!globals.isEditing()) {
 		hideBtnResetFields();
 	}
@@ -300,7 +301,7 @@ function sub_showProductOrders()
 
 		//change tabs in main navigation form
 		forms.lst_solution_navigation.onRecordSelection();
-		forms.frm_nav_CRUD.sub_showShowAll();
+		forms.frm_nav_top.sub_showShowAll();
 	}
 }
 

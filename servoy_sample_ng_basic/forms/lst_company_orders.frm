@@ -74,7 +74,7 @@ borderType:"EmptyBorder,0,0,0,0",
 imageMediaID:"96C868A3-0ECC-4503-8B8B-04DEFACDE13B",
 location:"5,8",
 name:"btnAddOrder",
-onActionMethodID:"-1",
+onActionMethodID:"A7501461-0946-4E4D-B5C1-D766AFF68542",
 size:"30,20",
 typeid:7,
 uuid:"AD8FF9A3-4FD4-44E2-9974-F81E67FB0A85"

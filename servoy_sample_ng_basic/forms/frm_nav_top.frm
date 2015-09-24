@@ -149,7 +149,6 @@ uuid:"FE4E2DDB-EFD8-493D-8EFB-6EFF78C0A040"
 }
 ],
 name:"frm_nav_top",
-onNewRecordCmdMethodID:"41B0339D-13B7-4DE7-B486-1D553C9BB6CD",
 onShowMethodID:"43B09C7A-B5A3-4BF4-91DA-ED4892A36175",
 showInMenu:true,
 size:"1000,120",

@@ -1,3 +1,4 @@
+dataSource:"db:/udm/solution_navigation",
 encapsulation:60,
 extendsID:"5C820362-78D5-47B9-B053-12D84B9BAED8",
 items:[
@@ -53,6 +54,7 @@ typeid:7,
 uuid:"51AB628B-E248-4F0A-9C90-789F9CF724A8"
 },
 {
+dataProviderID:"sqlQuery",
 displayType:1,
 location:"426,170",
 name:"txtSQLQuery",
@@ -85,6 +87,7 @@ typeid:7,
 uuid:"93062FC4-EA50-44D7-8678-5C3CCA965BE7"
 },
 {
+dataProviderID:"sqlQueryResult",
 displayType:8,
 editable:false,
 location:"426,301",
@@ -127,7 +130,7 @@ uuid:"D9CF2F39-069A-4D12-BE92-D09E4FB9156E"
 {
 borderType:"LineBorder,1,#000000",
 location:"857,273",
-onActionMethodID:"-1",
+onActionMethodID:"CED3DBBA-186C-4DD3-BFEC-D4BD3D216D9C",
 size:"119,20",
 text:"Perform Query",
 typeid:7,

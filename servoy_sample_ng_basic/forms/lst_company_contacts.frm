@@ -80,7 +80,7 @@ borderType:"EmptyBorder,0,0,0,0",
 imageMediaID:"96C868A3-0ECC-4503-8B8B-04DEFACDE13B",
 location:"5,5",
 name:"btnAddCompanyContact",
-onActionMethodID:"61A52A8E-E50E-4867-AD42-24CB1C3509D1",
+onActionMethodID:"E057C139-F331-47CE-9739-CD6ADC0C8981",
 size:"30,20",
 typeid:7,
 uuid:"8F020E00-3005-4109-BF54-B3FBE21E6B2A"
