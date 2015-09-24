@@ -1,3 +1,4 @@
+dataSource:"db:/udm/solution_navigation",
 encapsulation:60,
 items:[
 {
