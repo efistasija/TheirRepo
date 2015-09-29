@@ -2,7 +2,7 @@
  * Replace the flag paid=1 with ""PAID" and paid=0 with "PENDING"
  * @properties={type:12,typeid:36,uuid:"20B13BC7-AABC-4DC3-BCAF-37743B74C55B"}
  */
- function paid_display()
+function paid_display()
  {
 	 if(is_paid == 1)
 	 {
@@ -61,18 +61,18 @@ function list_nav_orders_display()
 
 /**
  * @return {Number}
- * @properties={typeid:36,uuid:"A96E17CE-F7FE-4398-AD4F-51861B3FB8D2"}
+ * @properties={type:8,typeid:36,uuid:"A96E17CE-F7FE-4398-AD4F-51861B3FB8D2"}
  */
 function subtotal_after_discount()
 {
-if(amt_discount > 0 && orders_to_order_items.sum_extended > 0)
-{
-	return orders_to_order_items.sum_extended - amt_discount;
-}
-else
-{
-	return orders_to_order_items.sum_extended;
-}
+	if(amt_discount > 0 && orders_to_order_items.sum_extended > 0)
+	{
+		return orders_to_order_items.sum_extended - amt_discount;
+	}
+	else
+	{
+		return orders_to_order_items.sum_extended;
+	}
 }
 
 /**
@@ -95,7 +95,7 @@ function order_total()
 /**
  * @return {Number}
  * @description Calculate the amount of tax paid on the whole order sum
- * @properties={typeid:36,uuid:"1A0C4974-0854-4CD9-BAFD-94E76E0CA296"}
+ * @properties={type:8,typeid:36,uuid:"1A0C4974-0854-4CD9-BAFD-94E76E0CA296"}
  */
 function amt_tax()
 {

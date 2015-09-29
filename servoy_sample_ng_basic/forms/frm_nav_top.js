@@ -86,6 +86,9 @@ function hideBtnResetFields()
 
 	elements.btnSave.visible = false;
 	elements.btnCancel.visible = false;
+	elements.btnNavLeft.enabled = true;
+	elements.btnNavRight.enabled = true;
+	forms.lst_nav_main.disableForm(true);
 }
 
 /**
@@ -127,6 +130,10 @@ function doEdit()
 
 	elements.btnSave.visible = true;
 	elements.btnCancel.visible = true;
+	elements.btnNavLeft.enabled = false;
+	elements.btnNavRight.enabled = false;
+	forms.lst_nav_main.disableForm(false);
+
 }
 
 /**
@@ -252,14 +259,6 @@ function btnEdit(event) {
 	{
 		//see what form is front-most
 		var frm = event.getFormName();
-//		var selectedRecord = forms.lst_solution_navigation.getSelectedRecord().toLowerCase();
-//		//to account for the form name for customers actually being companies
-//		if(selectedRecord.equalsIgnoreCase('customers')){
-//			selectedRecord = 'companies';
-//		}
-//		
-//		var frm = 'frm_'+ selectedRecord;
-		//ALL forms must have a method "doEdit" for this to work
 		forms[frm].doEdit();
 
 		//tell the first field in the tab order to receive focus

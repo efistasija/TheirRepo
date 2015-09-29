@@ -621,5 +621,12 @@ mimeType:"image/svg+xml",
 name:"icons_sample_NG_app/sort_desc.svg",
 typeid:37,
 uuid:"62C60982-8ED1-4BF6-B80D-6AAE42BBDBCD"
+},
+{
+encapsulation:0,
+mimeType:"text/css",
+name:"svyWebCrm.css",
+typeid:37,
+uuid:"8947A7F1-5546-489E-BA6C-F0D4891E2883"
 }
 ]

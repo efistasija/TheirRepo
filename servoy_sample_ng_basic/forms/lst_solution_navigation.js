@@ -1,4 +1,9 @@
-
+/**
+ * @type {Number}
+ *
+ * @properties={typeid:35,uuid:"F1EA2E0F-557E-4DDC-97C1-71E49DC30508",variableType:4}
+ */
+var selectedRecord = 1;
 /**
  * Callback method for when form is shown.
  *
@@ -21,8 +26,9 @@ function onShow(firstShow, event) {
  * @properties={typeid:24,uuid:"C3C948FF-CF1E-4184-90A9-E2638B8B7B6A"}
  */
 function onRecordSelection() {
-	forms.lst_nav_main.enableTab(foundset.item_name);
-	forms.main.setSelectedTabDetailsOverviewSolution(foundset.item_name);
+		forms.lst_nav_main.enableTab(foundset.item_name);
+		forms.main.setSelectedTabDetailsOverviewSolution(foundset.item_name);
+		selectedRecord = foundset.getSelectedIndex();
 }
 
 /**
@@ -49,4 +55,15 @@ function setSelectedIndex(resourceName){
  */
 function getSelectedRecord(){
 	return foundset.item_name;
+}
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param disabled
+ *
+ * @properties={typeid:24,uuid:"6FE685FF-1838-414B-AEFB-778B7C3EDE15"}
+ */
+function disableRecordSelection(disabled){
+	elements.lblIcon.enabled = disabled;
+	elements.lblItemName.enabled = disabled;
 }

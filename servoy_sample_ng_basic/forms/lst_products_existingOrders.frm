@@ -94,6 +94,7 @@ imageMediaID:"37233563-5DEF-4F1B-9EF7-32EC2B58ECD9",
 location:"10,62",
 onActionMethodID:"111CAF7C-AB18-4708-B3E3-CD9E75E61345",
 size:"30,20",
+styleClass:"buttonWithImage",
 typeid:7,
 uuid:"D18B1E76-66C5-424E-8796-15A7D19436DC"
 },

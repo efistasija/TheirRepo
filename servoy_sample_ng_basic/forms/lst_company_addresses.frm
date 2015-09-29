@@ -106,6 +106,7 @@ location:"6,68",
 name:"btnOpenAddress",
 onActionMethodID:"45A11A3A-4786-4078-975D-4649BAAE2546",
 size:"30,20",
+styleClass:"buttonWithImage",
 text:"button",
 typeid:7,
 uuid:"B9C10AA6-5388-4F95-BBBD-D0A931238FBF"

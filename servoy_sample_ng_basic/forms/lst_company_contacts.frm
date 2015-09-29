@@ -40,6 +40,7 @@ location:"12,61",
 name:"btnViewContact",
 onActionMethodID:"61A52A8E-E50E-4867-AD42-24CB1C3509D1",
 size:"30,20",
+styleClass:"buttonWithImage",
 typeid:7,
 uuid:"33FF2309-2827-4D9F-9F60-C857EE70685A"
 },

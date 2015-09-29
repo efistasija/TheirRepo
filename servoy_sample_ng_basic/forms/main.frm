@@ -2,6 +2,7 @@ encapsulation:60,
 items:[
 {
 anchors:13,
+borderType:"EmptyBorder,0,0,0,0",
 items:[
 {
 containsFormID:"B2729B67-B6D1-4B90-BBD4-43A1F4773C9F",
@@ -20,14 +21,15 @@ typeid:16,
 uuid:"2252780F-FFD7-4F42-8640-B1BBF0CBB64F"
 },
 {
-height:1080,
+height:800,
 partType:5,
 typeid:19,
 uuid:"47BD7B7C-8F58-44D3-A013-2BD5CA5DEB4E"
 },
 {
-anchors:11,
-background:"#ff8080",
+anchors:15,
+background:"#ffffff",
+borderType:"EmptyBorder,0,0,0,0",
 items:[
 {
 containsFormID:"66BD1071-7589-4C8D-B250-715C010201A2",

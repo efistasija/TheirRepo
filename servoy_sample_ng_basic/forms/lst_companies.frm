@@ -1,3 +1,4 @@
+borderType:"EmptyBorder,0,0,0,0",
 dataSource:"db:/udm/companies",
 extendsID:"E18B3F73-B2F5-4CCF-B611-B5F1CBE389E0",
 items:[
@@ -21,17 +22,19 @@ typeid:7,
 uuid:"7EFD8798-78D5-441D-BD69-3870713E6A91"
 },
 {
+background:"#ffffff",
 dataProviderID:"company_name",
-location:"35,70",
+location:"30,70",
 name:"lblCompanyName",
-size:"162,20",
+size:"168,20",
+styleClass:"nobackground",
 typeid:7,
 uuid:"9BD7AB02-B8A4-4226-B005-4107778C5C35"
 },
 {
 borderType:"EmptyBorder,0,0,0,0",
 displaysTags:true,
-location:"3,70",
+location:"0,70",
 name:"lblSelectedCompany",
 onActionMethodID:"D0C60ACE-7FA2-48B7-A9B8-186CFE0A9CDC",
 size:"30,20",
@@ -43,5 +46,6 @@ uuid:"BEAA2274-BBFE-49D3-96D9-AB91D69E3FD0"
 name:"lst_companies",
 onRecordSelectionMethodID:"D0C60ACE-7FA2-48B7-A9B8-186CFE0A9CDC",
 styleName:null,
+transparent:true,
 typeid:3,
 uuid:"5A4EABCD-94D4-4A22-8363-4746A975CE46"

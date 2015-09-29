@@ -25,7 +25,7 @@ function loadRecords(curFoundset) {
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected
+ * @public
  *
  * @properties={typeid:24,uuid:"77143B0E-9EC3-41F4-8C0B-752C02CC678B"}
  */
@@ -49,7 +49,7 @@ function btn_sortAsc(event) {
  *
  * @param {JSEvent} event the event that triggered the action
  *
- * @protected
+ * @public
  *
  * @properties={typeid:24,uuid:"92DF0B1C-5DAB-41E4-8DAA-C88A398BD0F2"}
  */
@@ -65,4 +65,14 @@ function btn_sortDesc(event) {
 	else if(name_first){
 		foundset.sort('name_first desc');
 	}
+}
+
+/**
+ * @param {Boolean} flag
+ *
+ * @properties={typeid:24,uuid:"2DB5AAA4-070E-49E7-B4EA-1FA432528344"}
+ */
+function disableEnableFields(flag){
+	elements.lblContact.enabled = flag;
+	elements.lblContactBtn.enabled = flag;
 }

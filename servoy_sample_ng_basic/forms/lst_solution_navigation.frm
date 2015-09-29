@@ -1,3 +1,4 @@
+borderType:"EmptyBorder,0,0,0,0",
 dataSource:"db:/udm/solution_navigation",
 encapsulation:60,
 initialSort:"solution_id desc",
@@ -12,6 +13,7 @@ typeid:7,
 uuid:"1790E3D6-6FE2-4830-9BE1-561B10C4C99C"
 },
 {
+background:"#999999",
 height:46,
 partType:2,
 typeid:19,
@@ -24,6 +26,7 @@ typeid:19,
 uuid:"9A0EBBCD-05F4-4750-886E-296CC7F368B7"
 },
 {
+borderType:"EmptyBorder,0,0,0,0",
 dataProviderID:"item_name",
 location:"33,50",
 name:"lblItemName",
@@ -35,9 +38,11 @@ uuid:"B3697241-15BE-4798-B46E-5B2DE24350DA"
 {
 borderType:"EmptyBorder,0,0,0,0",
 fontType:"Arial,0,20",
+foreground:"#ffffff",
 horizontalAlignment:2,
 location:"45,7",
 size:"108,37",
+styleClass:"topnav",
 text:"Navigation",
 typeid:7,
 uuid:"ED0D27E6-3C28-4915-8AE9-F1D897E5537B"

@@ -1,16 +1,9 @@
 /**
- * @type {Number}
+ * @type {String}
  *
- * @properties={typeid:35,uuid:"3FF9AB2D-CE98-4782-B124-504CF458D251",variableType:4}
+ * @properties={typeid:35,uuid:"02479799-FCDD-4579-9F45-F99DD7A1FE1A"}
  */
-var CONST_SOLUTION_ID = 2;
-
-/**
- * @type {Number}
- *
- * @properties={typeid:35,uuid:"E68DCE19-9687-446D-A081-0F2396E1B4BE",variableType:4}
- */
-var CONST_MAIN_COMPANY_ID=7;
+var currentValueList = '';
 
 /**
  * @type {Number}

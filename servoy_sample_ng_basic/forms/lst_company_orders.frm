@@ -146,6 +146,7 @@ location:"4,67",
 name:"btnOpenOrder",
 onActionMethodID:"EC93C46D-405A-4528-9142-959DE6360D49",
 size:"30,20",
+styleClass:"buttonWithImage",
 typeid:7,
 uuid:"F564C995-B858-4EDA-8CFD-451B300E8808"
 },

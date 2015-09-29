@@ -1,3 +1,4 @@
+borderType:"EmptyBorder,0,0,0,0",
 extendsID:"E18B3F73-B2F5-4CCF-B611-B5F1CBE389E0",
 items:[
 {

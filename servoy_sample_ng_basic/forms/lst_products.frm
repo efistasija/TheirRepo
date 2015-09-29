@@ -1,10 +1,14 @@
+borderType:"EmptyBorder,0,0,0,0",
 dataSource:"db:/udm/products",
 extendsID:"E18B3F73-B2F5-4CCF-B611-B5F1CBE389E0",
 items:[
 {
+background:"#ffffff",
 dataProviderID:"list_nav_products_display",
-location:"32,49",
+location:"29,49",
+name:"lblProductName",
 size:"168,20",
+styleClass:"nobackground",
 typeid:7,
 uuid:"8301BF17-9D24-4DC9-84D1-A2FAC6814DED"
 },
@@ -26,6 +30,7 @@ uuid:"D737229F-ADBD-4EEA-A846-A95DD3DEB164"
 borderType:"EmptyBorder,0,0,0,0",
 displaysTags:true,
 location:"1,48",
+name:"lblProductBtn",
 onActionMethodID:"174B357D-2F78-40EF-88C1-4AC88DC92DDF",
 size:"30,20",
 text:"%%displayIconOnRecord%%",

@@ -203,6 +203,11 @@ function doEdit()
 	
 	//make the items editable
 	sub_slideLabels();
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(false);
 
 }
 
@@ -241,6 +246,11 @@ function hideBtnResetFields()
 
 	//make sure that we set this to 1 so the next call to the dialog will commit the entire transaction
 	globals.okToCommit = 1;
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(true);
 }
 
 /**

@@ -138,6 +138,11 @@ function doEdit()
 			forms[frm].elements[allFormElements[i]].enabled = false;
 		}
 	}
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(false);
 }
 
 /**
@@ -178,6 +183,11 @@ function hideBtnResetFields()
 			forms[frm].elements[allFormElements[i]].enabled = true;
 		}
 	}
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//enable record navigation when not in edit mode
+	forms[frm2].disableEnableFields(true);
 }
 
 

@@ -16,6 +16,17 @@ function enableTab(itemName){
 }
 
 /**
+ * TODO generated, please specify type and doc for the params
+ * @param {Boolean} disabled
+ * @public
+ * @properties={typeid:24,uuid:"1B934ECF-AF48-4EF7-A944-7CE079646FCC"}
+ */
+function disableForm(disabled) {
+	controller.readOnly = disabled;
+	forms.lst_solution_navigation.disableRecordSelection(disabled);
+}
+
+/**
  * @param {JSEvent} event the event that triggered the action
  * @properties={typeid:24,uuid:"a0c21699-fea8-4445-81e4-8494edb62c56"}
  * @AllowToRunInFind
@@ -23,12 +34,8 @@ function enableTab(itemName){
 function btn_search(event)
 {
 	//see what form is front-most i.e. active in the main panel
-	var selectedRecord = forms.lst_solution_navigation.getSelectedRecord().toLowerCase();
-	//to account for the form name for customers actually being companies
-	if(selectedRecord.equalsIgnoreCase('customers')){
-		selectedRecord = 'companies';
-	}
-	var frm = 'frm_'+ selectedRecord;
+	var frm = event.getFormName();
+	
 	
 	/** @type String */
 	var search = globals.nav_search;

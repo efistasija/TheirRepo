@@ -53,6 +53,10 @@ function hideBtnResetFields()
 	//disable the comboboxes
 	elements.cbStatus.enabled = false;
 	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(true);
 }
 
 
@@ -117,6 +121,11 @@ function doEdit()
 
 	//enable the combobox
 	elements.cbStatus.enabled = true;
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(false);
 }
 
 /**

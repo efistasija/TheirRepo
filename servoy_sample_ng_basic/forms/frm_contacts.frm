@@ -14,9 +14,10 @@ uuid:"00F19F2C-DD58-490D-B1ED-61D1A84B2EE7",
 valuelistID:"745000C5-3612-4076-98C3-64723B2F9EF2"
 },
 {
+anchors:12,
 dataProviderID:"mail_use_company",
 displayType:4,
-location:"520,557",
+location:"519,716",
 name:"chkCompanyNameOnMailLabel",
 size:"450,20",
 text:"Use company name on mail label",
@@ -32,9 +33,9 @@ uuid:"095D0FE1-4E33-4F54-90E4-9CF0352B16E1"
 },
 {
 dataProviderID:"company_id",
-location:"545,187",
+location:"547,187",
 name:"txtCompanyName",
-size:"423,20",
+size:"421,20",
 typeid:4,
 uuid:"0CC2240F-62F2-4BCC-80BF-170EDE546873",
 valuelistID:"375BF2E4-2A61-4C62-8CE0-A41568897AEC"
@@ -56,6 +57,7 @@ typeid:7,
 uuid:"0FE8FEF7-33BF-4D34-B628-67E3D013F0F5"
 },
 {
+anchors:11,
 dataProviderID:"mailing_address_label",
 displayType:1,
 location:"519,244",
@@ -73,7 +75,7 @@ typeid:4,
 uuid:"109F218A-017C-48A7-872B-3E777B390FC7"
 },
 {
-anchors:11,
+anchors:15,
 items:[
 {
 containsFormID:"764DA5C3-16E5-41FE-A003-A78A263DE1BF",
@@ -86,7 +88,7 @@ uuid:"D8B24220-A818-4208-A2DF-09915A38BF75"
 ],
 location:"519,391",
 name:"tabs_availableAddresses",
-size:"450,153",
+size:"450,312",
 tabOrientation:-1,
 typeid:16,
 uuid:"1632766F-8C18-40E8-8E38-D6BC980AB787"
@@ -100,6 +102,7 @@ typeid:7,
 uuid:"2056C099-D63E-4DBD-8CD7-DC09223F5128"
 },
 {
+anchors:11,
 background:"#808080",
 location:"519,158",
 size:"450,2",
@@ -113,6 +116,7 @@ location:"517,187",
 name:"btnShowCompany",
 onActionMethodID:"F93438B7-459F-40F0-B5AE-F54DA6CB8C2A",
 size:"30,20",
+styleClass:"buttonWithImage",
 toolTipText:"View company details",
 typeid:7,
 uuid:"445D845C-D601-4AAE-9C29-4E38C67E8F20"
@@ -134,6 +138,9 @@ typeid:7,
 uuid:"48CF484A-15BA-4E93-971E-24D054B3354D"
 },
 {
+background:"#808080",
+foreground:"#ffffff",
+horizontalAlignment:0,
 location:"18,137",
 name:"lblPersonalInfo",
 size:"109,20",
@@ -142,6 +149,9 @@ typeid:7,
 uuid:"50D49CBD-71F2-4EB5-BE3B-CCA2480431CC"
 },
 {
+background:"#808080",
+foreground:"#ffffff",
+horizontalAlignment:0,
 location:"519,138",
 name:"lblCompanyInfo",
 size:"116,20",
@@ -166,25 +176,30 @@ typeid:4,
 uuid:"6787EEA3-BE73-40BE-BC3E-4CEAEB1E54DB"
 },
 {
-location:"833,131",
+anchors:3,
+background:"#808080",
+foreground:"#ffffff",
+horizontalAlignment:0,
+location:"842,111",
 size:"45,20",
-text:"Status:",
+text:"Status",
 typeid:7,
 uuid:"6D0D6434-7201-4971-9351-835EFD56E6A3"
 },
 {
 background:"#808080",
-location:"18,333",
+location:"18,331",
 size:"450,2",
 typeid:7,
 uuid:"6FE1AADD-E08F-45AC-B8E7-24581CA1DA02"
 },
 {
+anchors:13,
 dataProviderID:"contact_notes",
 displayType:1,
-location:"18,483",
+location:"18,479",
 name:"txtNotes",
-size:"450,107",
+size:"450,307",
 typeid:4,
 uuid:"72DD7C5E-A4A3-4702-9089-04361E1324DC"
 },
@@ -216,6 +231,9 @@ uuid:"8E5354AC-B29F-4063-B724-33D0C0AF8031",
 valuelistID:"B9F44FD3-5891-486C-B18C-D714DCC35145"
 },
 {
+background:"#808080",
+foreground:"#ffffff",
+horizontalAlignment:0,
 location:"18,457",
 name:"lblNotes",
 size:"80,20",
@@ -225,7 +243,7 @@ uuid:"901A48E3-E037-4886-9A1D-C9CC4C579F40"
 },
 {
 background:"#808080",
-location:"18,481",
+location:"18,477",
 size:"450,2",
 typeid:7,
 uuid:"98B83A8C-761D-40D5-9EE2-A50768A478BB"
@@ -255,9 +273,10 @@ typeid:4,
 uuid:"B2A51637-33C7-449E-B6FE-13E6374C3ABE"
 },
 {
+anchors:12,
 dataProviderID:"mail_use_country",
 displayType:4,
-location:"520,587",
+location:"519,746",
 name:"chkCountryOnMailLabel",
 size:"450,20",
 text:"Use country on mail label",
@@ -319,10 +338,11 @@ typeid:7,
 uuid:"D8DBBFB0-C4A8-4192-9E82-0F5A11D7F001"
 },
 {
+anchors:3,
 dataProviderID:"is_active",
 displayType:2,
 editable:false,
-location:"880,131",
+location:"887,111",
 name:"cbStatus",
 size:"96,20",
 typeid:4,
@@ -338,9 +358,12 @@ typeid:4,
 uuid:"EABA1C3D-ECA8-4F72-AEC1-DBA79596CCFE"
 },
 {
+background:"#808080",
+foreground:"#ffffff",
+horizontalAlignment:0,
 location:"18,311",
-name:"txtContactInfo",
-size:"80,20",
+name:"lblContactInfo",
+size:"90,20",
 text:"Contact Info",
 typeid:7,
 uuid:"ECAF545E-FEAD-4622-913A-335CCF6A6FC7"

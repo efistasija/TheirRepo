@@ -115,6 +115,11 @@ function hideBtnResetFields()
 	//show the buttons
 	elements.btnSendEmail.visible = true;
 	elements.btnShowCompany.visible = true;
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(true);
 }
 
 /**
@@ -129,7 +134,6 @@ function hideBtnResetFields()
 function btnSave(event) {
 	_super.btnSave(event);
 	hideBtnResetFields();
-	//see if you need to do the add part
 }
 
 /**
@@ -190,6 +194,11 @@ function doEdit()
 	//hide the buttons that will screw things up
 	elements.btnSendEmail.visible = false;
 	elements.btnShowCompany.visible = false;
+	
+	//get the list form name corresponding to this form
+	var frm2 = controller.getName().replace('frm','lst');
+	//disable record navigation when in edit mode
+	forms[frm2].disableEnableFields(false);
 }
 
 /**

@@ -47,6 +47,5 @@ function btn_sortDesc(event) {
  * @properties={typeid:24,uuid:"9A02077C-E8D6-40D6-BB7C-A3678D66E021"}
  */
 function onShow(firstShow, event) {
-	application.output("List base form on show");
 	btn_sortAsc(event);
 }
