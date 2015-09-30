@@ -33,12 +33,16 @@
 	    </condition>
 	 </target>
 
+	 <target name="load_properties">
+	   <property file="test_properties.properties"/>
+	</target>
+	 
 	 <target name="install_protractor_if_necessary" depends="protractor_installed_check" unless="protractor.installed">
 	 	 <antcall target="install_protractor"/>
 	 </target>
 
 	<!-- installs protractor with it's dependencies  based on package.json file  run only once-->
-	<target name="install_protractor">
+	<target name="install_protractor" depends='load_properties'>
 		<exec executable="cmd" dir="${basedir}" osfamily="windows"
 			failonerror="true">
 			<arg line="/c npm config set color false" />
@@ -64,7 +68,6 @@
 <!-- RUNNING TASKS -->
 	<!-- use this target for jenkins and saucelabs .  It does not require selenium webdiver which is 44 mb -->
 	<target name="run_tests" depends="install_protractor_if_necessary">
-		<property file="test_properties.properties"/>
 		    <echo message="Run tests script started"/>
 			<echo message="Testing solution: ${solution.name}"/>
 
