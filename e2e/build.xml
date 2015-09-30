@@ -42,7 +42,8 @@
 	 </target>
 
 	<!-- installs protractor with it's dependencies  based on package.json file  run only once-->
-	<target name="install_protractor" depends='load_properties'>
+	<target name="install_protractor">
+		<echo message="Base dir: ${basedir}"/>
 		<exec executable="cmd" dir="${basedir}" osfamily="windows"
 			failonerror="true">
 			<arg line="/c npm config set color false" />
@@ -67,7 +68,7 @@
 
 <!-- RUNNING TASKS -->
 	<!-- use this target for jenkins and saucelabs .  It does not require selenium webdiver which is 44 mb -->
-	<target name="run_tests" depends="install_protractor_if_necessary">
+	<target name="run_tests" depends="load_properties, install_protractor_if_necessary">
 		    <echo message="Run tests script started"/>
 			<echo message="Testing solution: ${solution.name}"/>
 
