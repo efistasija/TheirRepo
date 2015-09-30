@@ -44,8 +44,6 @@ exports.config = {
 
   // If sauceUser and sauceKey are specified, seleniumServerJar will be ignored.
   // The tests will be run remotely using SauceLabs.
-  sauceUser: '@{sauceUserPlaceholder}@',
-  sauceKey: '@{sauceKeyPlaceholder}@',
 
   // The address of a running selenium server. If specified, Protractor will
   // connect to an already running instance of selenium. This usually looks like
@@ -124,7 +122,7 @@ exports.config = {
   //
   // A base URL for your application under test. Calls to protractor.get()
   // with relative paths will be prepended with this.
-  baseUrl: 'http://localhost:8083',
+  baseUrl: 'http://sampleng.eu-gb.mybluemix.net/',
 
   // Selector for the element housing the angular app - this defaults to
   // body, but is necessary if ng-app is on a descendant of <body>
@@ -149,9 +147,6 @@ exports.config = {
     // At this point, tests will be done but global objects will still be
     // available.
     console.log('DONE!');
-    browser.getSession().then(function(session) {
-      console.log("SauceOnDemandSessionID=" + session.getId() + " job-name=Jenkins");
-    });
   },
 
   // The params object will be passed directly to the protractor instance,

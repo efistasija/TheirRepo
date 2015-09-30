@@ -18,8 +18,7 @@
 		<echo level="info" message="Path to new unziped war: ${servoy.test.target-exports-unpacked.war}/${solutions_to_export_as_war_tests}"/>
 	</target>
 
-
-    <target name="prepare_export_log">
+	<target name="prepare_export_log">
   		<move file="servoy_log.txt" tofile="${log.dir}/workspace_exporter_app_server_log.txt" failonerror="false"/>
   		<move file="${test.workspace.dir}/.metadata/.log" tofile="${log.dir}/workspace_exporter_workspace_log.txt" failonerror="false"/>
     </target>
