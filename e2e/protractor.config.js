@@ -99,12 +99,12 @@ exports.config = {
 		// set of capabilities. This is only needed if shardTestFiles is true.
 		// Default is 1.
 		//maxInstances: 1
-	}, {
+	}, /* {
 		browserName: 'chrome',
 		//count: 1,
 		//shardTestFiles: false,
 		//maxInstances: 1
-	}, {
+	}, */ {
 		browserName: 'internet explorer',
       //  platform: 'ANY',
       //  version: '11',
