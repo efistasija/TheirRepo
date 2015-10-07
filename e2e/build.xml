@@ -57,12 +57,12 @@
 
 		<exec executable="cmd" dir="${basedir}" osfamily="windows"
 			failonerror="true">
-			<arg line="/c npm install --prefix ./e2e" />
+			<arg line="/c npm install" />
 		</exec>
 		<exec executable="bash" dir="${basedir}" osfamily="unix"
 			failonerror="true">
 			<arg line="-c" />
-			<arg value="npm install --prefix ./e2e"/>
+			<arg value="npm install"/>
 		</exec>
 	</target>
 
