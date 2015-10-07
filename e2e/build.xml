@@ -34,7 +34,8 @@
 	 </target>
 
 	 <target name="load_properties">
-	   <property file="test_properties.properties"/>
+	   <echo message="Loading properties."/>
+	   <property file="test_properties.properies"/>
 	</target>
 	 
 	 <target name="install_protractor_if_necessary" depends="protractor_installed_check" unless="protractor.installed">
