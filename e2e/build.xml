@@ -57,12 +57,12 @@
 
 		<exec executable="cmd" dir="${basedir}" osfamily="windows"
 			failonerror="true">
-			<arg line="/c npm install" />
+			<arg line="/c npm install --prefix ./e2e" />
 		</exec>
 		<exec executable="bash" dir="${basedir}" osfamily="unix"
 			failonerror="true">
 			<arg line="-c" />
-			<arg value="npm install"/>
+			<arg value="npm install --prefix ./e2e"/>
 		</exec>
 	</target>
 
@@ -80,7 +80,6 @@
 					<arg value="${protractor.conf}"/>
 					<arg value="--params.solutionName=${solution.name}"/>
 		</exec>
-		<echo message="running protractor for windows"/>
 
 		<property name="temp1" value="node ./node_modules/.bin/protractor ${protractor.conf} --params.solutionName=${solution.name}"/>
 		<exec executable="bash" dir="${basedir}" osfamily="unix"
@@ -88,7 +87,6 @@
 			                <arg value="-c"/>
 							<arg value="${temp1}"/>
 		</exec>
-		<echo message="running protractor for unix"/>
 	</target>
 
 
