@@ -64,11 +64,6 @@
 			<arg line="-c" />
 			<arg value="npm install"/>
 		</exec>
-		<exec executable="bash" dir="${basedir}" osfamily="unix"
-			failonerror="true">
-			<arg line="-c" />
-			<arg value="./node_modules/protractor/bin/webdriver-manager update"/>
-		</exec>
 	</target>
 
 

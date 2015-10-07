@@ -20,7 +20,7 @@ exports.config = {
   // to the location of this config. If no other method of starting selenium
   // is found, this will default to
   // node_modules/protractor/selenium/selenium-server...
-  seleniumServerJar: null,
+  seleniumServerJar: './selenium-server-standalone-2.47.1',
   // The port to start the selenium server on, or null if the server should
   // find its own unused port.
   seleniumPort: null,
@@ -28,7 +28,7 @@ exports.config = {
   // find chromedriver. This will be passed to the selenium jar as
   // the system property webdriver.chrome.driver. If null, selenium will
   // attempt to find chromedriver using PATH.
-  chromeDriver: null,
+  chromeDriver: './chromedriver_linux64/chromedriver',
   // If true, only chromedriver will be started, not a standalone selenium.
   // Tests for browsers other than chrome will not run.
   chromeOnly: false,
@@ -99,12 +99,12 @@ exports.config = {
 		// set of capabilities. This is only needed if shardTestFiles is true.
 		// Default is 1.
 		//maxInstances: 1
-	}, /* {
+	}, {
 		browserName: 'chrome',
 		//count: 1,
 		//shardTestFiles: false,
 		//maxInstances: 1
-	}, */ {
+	},  {
 		browserName: 'internet explorer',
       //  platform: 'ANY',
       //  version: '11',
