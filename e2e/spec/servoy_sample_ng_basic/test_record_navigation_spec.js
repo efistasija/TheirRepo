@@ -9,12 +9,17 @@ describe('test_record_navigation', function() {
   
   
   it('should show the next record', function() {
-	var text, value, bool, source, url, title;
-    var TestVars = {};
 	browser.get("http://sampleng.eu-gb.mybluemix.net/solutions/servoy_sample_ng_basic/index.html");
+	//browser.ignoreSynchronization = true;
+   // browser.pause();
+   // browser.debugger();
+    //browser.waitForAngular();
    	browser.wait(function() {
-		 return browser.isElementPresent(element(by.xpath("//*[@data-svy-name='lst_nav_main.txtSearch']")));
-	}, 100000);
+		return browser.getCurrentUrl().then(function(url) {
+      return url === 'http://sampleng.eu-gb.mybluemix.net/solutions/servoy_sample_ng_basic/index.html';
+   });
+		//return browser.isElementPresent(element(by.xpath("//*[@data-svy-name='lst_nav_main.fldSearch']")));
+	});
 	
   });
 /*	
