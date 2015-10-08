@@ -14,7 +14,7 @@ describe('test_record_navigation', function() {
 	browser.get("http://sampleng.eu-gb.mybluemix.net/solutions/servoy_sample_ng_basic/index.html");
    	browser.wait(function() {
 		 return browser.isElementPresent(element(by.xpath("//*[@data-svy-name='lst_nav_main.txtSearch']")));
-	}, 80000);
+	}, 100000);
 	
   });
 /*	
