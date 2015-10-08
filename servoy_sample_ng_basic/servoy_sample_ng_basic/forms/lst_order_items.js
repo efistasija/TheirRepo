@@ -63,3 +63,14 @@ function btnShowProductDetails(event) {
 		globals.DIALOGS.showFormInModalDialog(forms.dlg_orderItem,50,50,600,260,"Edit Order Item",true);
 
 }
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param flag
+ *
+ * @properties={typeid:24,uuid:"2889DE1B-83B2-491D-BB47-8D2CADF50030"}
+ */
+function enableDisableFormFields(flag){
+	controller.enabled = flag;
+	controller.readOnly = flag;
+}

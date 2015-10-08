@@ -420,6 +420,7 @@ uuid:"9AFC2FC8-BCB1-464A-8D5C-E8975623C8C3"
 dataProviderID:"paid_date",
 displayType:5,
 location:"833,290",
+name:"txtPaidDate",
 size:"120,20",
 typeid:4,
 uuid:"9BCB98DA-BE78-425E-8E5E-70DAE177A91A"

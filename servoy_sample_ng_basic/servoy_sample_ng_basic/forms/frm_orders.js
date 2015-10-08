@@ -228,6 +228,8 @@ function doEdit()
 	
 	//disable record navigation when in edit mode
 	forms.lst_orders.disableEnableFields(false);
+	
+	forms.lst_order_items.enableDisableFormFields(false);
 
 }
 
@@ -269,6 +271,7 @@ function hideBtnResetFields()
 	
 	//disable record navigation when in edit mode
 	forms.lst_orders.disableEnableFields(true);
+	forms.lst_order_items.enableDisableFormFields(true);
 }
 
 /**
