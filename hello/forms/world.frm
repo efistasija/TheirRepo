@@ -35,6 +35,13 @@ size:"56,22",
 text:"hello",
 typeid:7,
 uuid:"CB41D6C7-7990-469C-871C-F02FBB32565D"
+},
+{
+displayType:4,
+location:"138,55",
+size:"140,20",
+typeid:4,
+uuid:"EAB3B89A-7074-4A5C-B9FE-DE3E068B5FF8"
 }
 ],
 name:"world",
