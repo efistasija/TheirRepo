@@ -6,7 +6,7 @@ typeid:4,
 uuid:"60FFC12A-513E-4DCC-957E-4304949E8075"
 },
 {
-location:"144,310",
+location:"420,368",
 onActionMethodID:"-1",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
