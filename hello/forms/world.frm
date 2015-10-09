@@ -6,6 +6,15 @@ typeid:4,
 uuid:"60FFC12A-513E-4DCC-957E-4304949E8075"
 },
 {
+location:"144,310",
+onActionMethodID:"-1",
+onDoubleClickMethodID:"-1",
+onRightClickMethodID:"-1",
+text:"button",
+typeid:7,
+uuid:"8378A6B4-667D-410B-BF5C-4F0AC73D45B0"
+},
+{
 location:"189,193",
 onActionMethodID:"-1",
 size:"80,20",
